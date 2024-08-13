@@ -1,17 +1,17 @@
 <template>
   <div id="app">
     <img alt="Vue logo" src="./assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
+    <tweet-toggle></tweet-toggle>
   </div>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+import TweetToggle from './components/TweetToggle.vue'
 
 export default {
   name: 'App',
   components: {
-    HelloWorld
+    TweetToggle
   }
 }
 </script>
